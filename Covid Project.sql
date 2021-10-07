@@ -1,6 +1,8 @@
 /*
 Explore Covid 19 latest data
 
+Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+
 */
 
 SELECT * FROM CovidProject..covidDeath
@@ -20,6 +22,7 @@ FROM CovidProject..covidDeath
 ORDER BY 1,2
 
 -- Show Total cases vs population
+
 SELECT location, date, total_cases, population, (total_cases/population) as InfectionPercentage
 FROM CovidProject..covidDeath
 ORDER BY 1,2
