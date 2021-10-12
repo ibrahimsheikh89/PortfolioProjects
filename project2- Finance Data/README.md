@@ -1,5 +1,5 @@
 # Finance Data project
-In this data project I will exploratory data analysis of stock prices. with focus on bank stocks and how they progressed throughout the financial crisis.
+In this data project I will focus on exploratory data analysis of stock prices. with focus on bank stocks and how they progressed throughout the financial crisis.
 
 
 
