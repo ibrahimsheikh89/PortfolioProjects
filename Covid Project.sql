@@ -112,7 +112,7 @@ JOIN CovidProject..CovidVaccination cva
 WHERE cde.continent is not null
 ORDER BY 2,3
 
--- Perform calculation on the previous query using CTE 
+-- Perform calculation on the previous query using CTE  
 
 WITH PopvsVac (continent, location, date, population,new_vaccinations, VaccineRollout)
 as(
