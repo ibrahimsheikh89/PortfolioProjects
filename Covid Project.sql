@@ -19,7 +19,7 @@ ORDER BY 1,2
 
 SELECT location, date, total_cases, total_deaths, (total_deaths/total_cases) as DeathPercentage
 FROM CovidProject..covidDeath
-ORDER BY 1,2
+ORDER BY 1,2 
 
 -- Show Total cases vs population
 
